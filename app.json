@@ -1,0 +1,8 @@
+{
+  "name": "BBStats",
+  "description": "BBStats",
+  "repository": "https://github.com/rstruthers1/bbstats-node",
+  "logo": "http://bbstats-node.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

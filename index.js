@@ -14,7 +14,7 @@ var index = require('./routes/index');
 var app = express();
 
 
-app.set('port', (process.env.PORT || 9090));
+var port = process.env.PORT || 8080;
 
 
 // view engine setup

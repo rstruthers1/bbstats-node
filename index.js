@@ -57,5 +57,5 @@ var server = app.listen(5000, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('bbstats-node listening at http://%s:%s', host, port);
+    console.log('foo bbstats-node listening at http://%s:%s', host, port);
 });

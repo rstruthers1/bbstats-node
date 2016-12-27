@@ -14,7 +14,7 @@ var index = require('./routes/index');
 var app = express();
 
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 9090;
 
 
 // view engine setup
@@ -47,7 +47,7 @@ app.use(function(err, req, res, next) {
 
     // render the error page
     res.status(err.status || 500);
-    res.render('error');
+    res.render('pages/error');
 });
 
 module.exports = app;
